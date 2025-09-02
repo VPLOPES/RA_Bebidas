@@ -1,4 +1,3 @@
-
 # 📊 Panorama do Setor de Bebidas em Minas Gerais
 
 Este repositório contém um **dashboard interativo em Power BI** desenvolvido para analisar a **Indústria de Fabricação de Bebidas** em Minas Gerais e no Brasil.
@@ -8,21 +7,46 @@ O arquivo principal é **`RA_Bebidas.pbix`**, que reúne informações de mercad
 
 ## 📂 Estrutura do Dashboard
 
-### 1. **Mercado**
+### 1. **Capa / Menu Inicial**
 
-![Mercado](imagens/p1.png)
+![Menu Inicial](imagens/p1.png)
+Visão geral do painel, com acesso às seções:
 
-* Total de estabelecimentos do setor: **23 mil**
-* Estabelecimentos no Simples: **8.575**
-* Distribuição por tipo de bebida (alcoólicas frias, alcoólicas quentes e não alcoólicas)
-* Classificação por porte (micro, pequenas, médias e grandes empresas)
-* Distribuição geográfica por estados e municípios
+* Mercado
+* Produção Industrial
+* Comércio Exterior
+* Pesquisa de Associados
 
 ---
 
-### 2. **Produção Industrial**
+### 2. **Estabelecimentos**
 
-![Produção Industrial](imagens/p2.png)
+![Estabelecimentos](imagens/p2.png)
+
+* Total de estabelecimentos: **23 mil**
+* Estabelecimentos no Simples: **8.575**
+* Distribuição por tipo de bebida (alcoólicas frias, quentes e não alcoólicas)
+* Estabelecimentos por porte (micro, pequenas, médias e grandes empresas)
+* Mapa por UF
+
+---
+
+### 3. **Empregos**
+
+![Empregos](imagens/p3.png)
+
+* Total de empregados: **1 milhão**
+* Salário médio: **R\$ 1,81 mil**
+* Massa salarial: **R\$ 3,80 bilhões**
+* Distribuição da massa salarial por categoria
+* Empregados por nível de escolaridade
+* Percentual por ocupação
+
+---
+
+### 4. **Produção Industrial**
+
+![Produção Industrial](imagens/p4.png)
 
 * Indicadores principais:
 
@@ -30,24 +54,24 @@ O arquivo principal é **`RA_Bebidas.pbix`**, que reúne informações de mercad
   * **RLV (Receita Líquida de Vendas)**
   * **PRT (Produtividade Relativa do Trabalho)**
 * Séries históricas (2010–2019)
-* Comparação por estados (MG, PR, RJ, RS, SC, SP)
-* Segmentação por bebidas alcoólicas e não alcoólicas
+* Comparação entre estados (MG, PR, RJ, RS, SC, SP)
+* Segmentação: bebidas alcoólicas e não alcoólicas
 
 ---
 
-### 3. **Exportações**
+### 5. **Exportações**
 
-![Exportações](imagens/p3.png)
+![Exportações](imagens/p5.png)
 
 * Valor total exportado: **US\$ 1 bilhão**
 * Principais produtos: cerveja de malte, rum, vodka, uísque, águas engarrafadas
-* Principais destinos: Paraguai, Bolívia, Argentina, EUA e Uruguai
+* Destinos principais: Paraguai, Bolívia, Argentina, EUA e Uruguai
 
 ---
 
-### 4. **Importações**
+### 6. **Importações**
 
-![Importações](imagens/p4.png)
+![Importações](imagens/p6.png)
 
 * Valor total importado: **US\$ 2 bilhões**
 * Principais produtos: uísques, cervejas, licores, vodka e gim
@@ -55,23 +79,25 @@ O arquivo principal é **`RA_Bebidas.pbix`**, que reúne informações de mercad
 
 ---
 
-### 5. **Balança Comercial**
+### 7. **Balança Comercial**
 
-![Balança Comercial](imagens/p5.png)
+![Balança Comercial](imagens/p7.png)
 
-* Saldo negativo: **–US\$ 968 milhões**
-* Evolução anual de exportações e importações
-* Distribuição por estados e tipo de comércio
+* Saldo total: **–US\$ 968 milhões**
+* Evolução das exportações e importações
+* % por tipo de comércio
+* Distribuição por UF
 
 ---
 
-### 6. **Pesquisa de Associados**
+### 8. **Pesquisa de Associados**
 
-![Pesquisa Associados](imagens/p6.png)
+![Pesquisa Associados](imagens/p8.png)
 
 * Empresas por porte (MEI, micro, médias e grandes)
-* Localização das indústrias em Minas Gerais
-* Mapeamento por tipo de bebida (não alcoólica, quente e fria)
+* Localização das MEI e microempresas
+* Localização das empresas de médio e grande porte
+* Segmentação por tipo de bebida
 
 ---
 
@@ -107,8 +133,13 @@ O painel foi desenvolvido para oferecer uma visão clara e interativa sobre o se
 ```
 ├── RA_Bebidas.pbix   # Arquivo principal do Power BI
 ├── /imagens          # Capturas de tela dos dashboards
+│   ├── p1.png        # Menu Inicial
+│   ├── p2.png        # Estabelecimentos
+│   ├── p3.png        # Empregos
+│   ├── p4.png        # Produção Industrial
+│   ├── p5.png        # Exportações
+│   ├── p6.png        # Importações
+│   ├── p7.png        # Balança Comercial
+│   └── p8.png        # Pesquisa de Associados
 ├── README.md         # Documentação do projeto
 ```
-
----
-
